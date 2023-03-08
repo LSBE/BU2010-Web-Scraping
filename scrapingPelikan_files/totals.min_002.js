@@ -1,0 +1,1 @@
+define(['ko','uiComponent','Magento_Customer/js/customer-data','jquery'],function(ko,Component,customerData,$){'use strict';return Component.extend({displaySubtotal:ko.observable(true),initialize:function(){this._super();this.cart=customerData.get('cart');}});});
